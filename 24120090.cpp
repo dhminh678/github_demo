@@ -9,6 +9,9 @@ using namespace std;
 
 class CStudent {
 private:
+
+	int main;
+
 	string m_Name;
 	string m_ID;
 	vector<pair<string, pair<int, float>>> m_Subjects;
